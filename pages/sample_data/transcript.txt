@@ -1,0 +1,23 @@
+Agent: Good afternoon, thank you for calling M.A.I Lipstick Shop. This is Alex. How can I assist you today?
+
+Customer: Hi Alex, I'm interested in purchasing one of your lipsticks, but I have a few questions about the ingredients and the shipping process.
+
+Agent: Of course! I'd be happy to help with that. Which lipstick are you interested in?
+
+Customer: I'm looking at the Velvet Matte Lipstick in the shade Ruby Red.
+
+Agent: Great choice! The Velvet Matte Lipstick in Ruby Red is one of our bestsellers. Regarding the ingredients, our lipsticks are made with natural oils, shea butter, and vitamin E to keep your lips moisturized. They are also free from parabens, sulfates, and phthalates.
+
+Customer: That sounds good. Are there any animal-derived ingredients in the lipstick?
+
+Agent: No, all our lipsticks are vegan and cruelty-free. We ensure that no animal-derived ingredients are used in our products.
+
+Customer: That's perfect. Now, could you tell me about the shipping process?
+
+Agent: Certainly! We offer standard and express shipping options. Standard shipping usually takes 3-5 business days, while express shipping takes 1-2 business days. Once your order is placed, you'll receive a confirmation email with a tracking number so you can monitor your shipment.
+
+Customer: And how much does the shipping cost?
+
+Agent: Standard shipping is free for orders over £30. For orders under £30, it's £3.99. Express shipping is £7.99 regardless of the order amount.
+
+Customer: That sounds reasonable. Thank you for the information, Alex.

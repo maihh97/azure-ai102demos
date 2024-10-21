@@ -1,0 +1,8 @@
+streamlit
+requests
+pyyaml
+openai
+certifi
+streamlit_chat
+python-dotenv
+azure-ai-vision-imageanalysis
