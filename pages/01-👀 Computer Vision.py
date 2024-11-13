@@ -9,8 +9,8 @@ ENV = dotenv.dotenv_values(".env")
 
 # Create an Image Analysis client
 client = ImageAnalysisClient(
-    endpoint=ENV["AZURE_VISION_ENDPOINT"],
-    credential=AzureKeyCredential(ENV["AZURE_VISION_KEY"])
+    endpoint=ENV["AZURE_AI_ENDPOINT"],
+    credential=AzureKeyCredential(ENV["AZURE_AI_KEY"])
 )
 
 st.title("👀 Vision")
@@ -33,13 +33,13 @@ with col1:
             st.subheader("Image analysis results:")
             
             # Print caption results to the console
-            st.write(" Caption:")
             if result.caption is not None:
+                st.write(" Caption:")
                 st.write(f"'{result.caption.text}', Confidence {result.caption.confidence:.4f}")
-
+                
             # Print text (OCR) analysis results to the console
-            st.write(" Read:")
-            if result.read is not None:
+            if result.read is not None and result.read.blocks:
+                st.write(" Read:")
                 for line in result.read.blocks[0].lines:
                     st.write(f"Line: '{line.text}', Bounding box {line.bounding_polygon}")
                     for word in line.words:
